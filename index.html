@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="header">
+        <form>
+            <input type="text" name="searchKey" id="searchKey" placeholder="Search for city">
+            <p id="msg" style="color:red; margin-left: 30px; opacity: 0;">No matching locatin found!</p>
+            <input type="submit" value="" style="opacity: 0;">
+        </form>
+    </div>
+    <div class="content">
+        <div >
+            <h2 class="condition">Mostly Rainy</h2>
+            <h1 class="city">Kurunegala, Sri Lanka</h1>
+        </div>
+        <div class="data">
+            <div class="temp">
+                <h1>
+                    <span id="temp">83°C</span> 
+                    
+                </h1>
+            </div>
+            <div class="vertical-line"></div>
+            <div class="info">
+                <h3 id="feelslike">83°C</h3>
+                <h3 id="wind">Wind:23 MPH</h3>
+                <h3 id="humidity">HUMIDITY: 77%</h3>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
